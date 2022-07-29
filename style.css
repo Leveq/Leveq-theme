@@ -1,9 +1,42 @@
 /* 
 Theme Name: Leveq-theme
 Text Domain: Leveq-Theme
-Version: 0.1
+Version: 0.0.1
 Description: Modern responsive theme
 Tags: responsive, modern, animations
 Author: Kacy Leveck
 Author URI: https://www.leveq.dev
 */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    flex-direction: row-reverse;
+}
+
+.nav__links a {
+    padding-right: 1rem;
+}
+
+.hero {
+    height: 50vh;
+}
+
+.section__1,.section__2,.section__3 {
+    height: 400px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    height: 60px;
+}
